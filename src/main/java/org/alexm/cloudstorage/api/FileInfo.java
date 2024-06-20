@@ -6,6 +6,7 @@ import lombok.Getter;
 @AllArgsConstructor
 @Getter
 public class FileInfo {
+    private String uploadId;
     private String filename;
     private long size;
 }
